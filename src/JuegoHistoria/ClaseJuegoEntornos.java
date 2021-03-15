@@ -41,5 +41,44 @@ public class ClaseJuegoEntornos {
 			}
 			
 		}
-//Prueba Sergio Gil
+		
+		static void opcion9() {
+
+			System.out.println("Decides salir a buscar a Aiden. Tras seguir sus pisadas por el bosque, le encuentras.");
+			System.out.println("");
+			System.out.println("Comenzáis a dar un paseo y a hablar sobre lo que ha ocurrido.");
+			System.out.println("En mitad de la charla, cerca de un precipicio, una manada de ciervos os empiezan a acorralar.");
+			System.out.println("Aiden se tropieza y se queda colgando de una rama.");
+			System.out.println("");
+			System.out.println("Decides:");
+			System.out.println("1.- Ayudarle");
+			System.out.println("2.- No ayudarle");
+
+			int eleccionBosque = scanner.nextInt();
+
+			if (eleccionBosque == 1) {
+				opcion11();
+			} else {
+				opcion12();
+			}
+		}
+
+		static void opcion11() {
+
+			System.out.println("Decides ir a ayudarle, la rama en la que estaba sujeto Aiden se rompe, provocando que os caigáis los dos por el precipicio.");
+			System.out.println("Tras la caída, Aiden tiene un muerte instantánea y tú sobrevives.");
+		}
+
+		static void opcion12() {
+
+			System.out.println("Decides no ayudar a tu hermano, por tanto tu hermano muere.");
+			System.out.println("Tras su caída, los ciervos te empiezan a acorralar más y terminas cayendo, provocando tu muerte también.");
+		}
+
+		static void opcion10() {
+
+			System.out.println("Decides esperar que vuelva tu hermano. ");
+			System.out.println("Al siguiente día la policía acude al orfanato para comunicarte una terrible noticia, tu hermano a fallecido tras caerse por un barranco.");
+			System.out.println("");
+		}
 }
