@@ -7,29 +7,29 @@ public class ClaseJuegoEntornos {
 	 static Scanner scanner = new Scanner(System.in);
 		public static void main(String[] args) {
 
-			System.out.println("Bienvenido a la historia donde t˙ eres el protagonista!");
+			System.out.println("Bienvenido a la historia donde t√∫ eres el protagonista!");
 			System.out.println("");
 
-			System.out.println("Podr·s elegir entre varias opciones para decidir el rumbo de tu aventura.");
+			System.out.println("Podr√°s elegir entre varias opciones para decidir el rumbo de tu aventura.");
 			System.out.println("");
 			
-			System.out.println("La historia comienza a las 9 de la maÒana del 15 de diciembre de 1995 en el hospital Infanta SofÌa de Madrid, "
-					+ "hacia un frio helador y a˙n no habÌa salido el sol.");
-			System.out.println("Hoy era un dÌa especial, Ingrid Baker estaba a punto de dar a luz. El mÈdico anteriormente le habÌa avisado que iba a tener dos mellizos, un niÒo y una niÒa.");
+			System.out.println("La historia comienza a las 9 de la ma√±ana del 15 de diciembre de 1995 en el hospital Infanta Sof√≠a de Madrid, "
+					+ "hacia un frio helador y a√∫n no hab√≠a salido el sol.");
+			System.out.println("Hoy era un d√≠a especial, Ingrid Baker estaba a punto de dar a luz. El m√©dico anteriormente le hab√≠a avisado que iba a tener dos mellizos, un ni√±o y una ni√±a.");
 			System.out.println("");
 			
-			System.out.println("Debido a esta situaciÛn, el padre; Richard Williams, decidiÛ dejar a Ingrid y cortar el contacto con ella y sus futuros hijos.");
+			System.out.println("Debido a esta situaci√≥n, el padre; Richard Williams, decidi√≥ dejar a Ingrid y cortar el contacto con ella y sus futuros hijos.");
 			System.out.println("");
 
-			System.out.println("El embarazo iba muy bien, pero iba a suceder un imprevisto desafortunado que cambiarÌa dr·sticamente el devenir de la historia, "
-					+ "y eres t˙ quiÈn debe decidir quÈ rumbo tomar. Este dÌa marcar· tu vida y a partir de ahÌ depende de ti y de tus actos en quiÈn t˙ decidas ser.");
+			System.out.println("El embarazo iba muy bien, pero iba a suceder un imprevisto desafortunado que cambiar√≠a dr√°sticamente el devenir de la historia, "
+					+ "y eres t√∫ qui√©n debe decidir qu√© rumbo tomar. Este d√≠a marcar√° tu vida y a partir de ah√≠ depende de ti y de tus actos en qui√©n t√∫ decidas ser.");
 			System.out.println("");
 			
-			System.out.println("Llega el momento de tomar tu primera decisiÛn. Estas en la una encrucijada antes de nacer.");
+			System.out.println("Llega el momento de tomar tu primera decisi√≥n. Estas en la una encrucijada antes de nacer.");
 			System.out.println("");
 			
-			System.out.println("1.- Ingrid sobreviva al parto pero eso involucrarÌa que tu hermano fallezca.");
-			System.out.println("2.- Decidir salvar a tu hermano, tendr· como consecuencia la muerte de Ingrid.");
+			System.out.println("1.- Ingrid sobreviva al parto pero eso involucrar√≠a que tu hermano fallezca.");
+			System.out.println("2.- Decidir salvar a tu hermano, tendr√° como consecuencia la muerte de Ingrid.");
 			int eleccion = scanner.nextInt();
 			
 			if (eleccion ==1){
@@ -41,12 +41,13 @@ public class ClaseJuegoEntornos {
 			}
 			
 		}
+
 		
 		static void opcion9() {
 
 			System.out.println("Decides salir a buscar a Aiden. Tras seguir sus pisadas por el bosque, le encuentras.");
 			System.out.println("");
-			System.out.println("Comenz·is a dar un paseo y a hablar sobre lo que ha ocurrido.");
+			System.out.println("Comenz√°is a dar un paseo y a hablar sobre lo que ha ocurrido.");
 			System.out.println("En mitad de la charla, cerca de un precipicio, una manada de ciervos os empiezan a acorralar.");
 			System.out.println("Aiden se tropieza y se queda colgando de una rama.");
 			System.out.println("");
@@ -67,20 +68,58 @@ public class ClaseJuegoEntornos {
 
 		static void opcion11() {
 
-			System.out.println("Decides ir a ayudarle, la rama en la que estaba sujeto Aiden se rompe, provocando que os caig·is los dos por el precipicio.");
-			System.out.println("Tras la caÌda, Aiden tiene un muerte instant·nea y t˙ sobrevives.");
+			System.out.println("Decides ir a ayudarle, la rama en la que estaba sujeto Aiden se rompe, provocando que os caig√°is los dos por el precipicio.");
+			System.out.println("Tras la ca√≠da, Aiden tiene un muerte instant√°nea y t√∫ sobrevives.");
 		}
 
 		static void opcion12() {
 
 			System.out.println("Decides no ayudar a tu hermano, por tanto tu hermano muere.");
-			System.out.println("Tras su caÌda, los ciervos te empiezan a acorralar m·s y terminas cayendo, provocando tu muerte tambiÈn.");
+			System.out.println("Tras su ca√≠da, los ciervos te empiezan a acorralar m√°s y terminas cayendo, provocando tu muerte tambi√©n.");
 		}
 
 		static void opcion10() {
 
 			System.out.println("Decides esperar que vuelva tu hermano. ");
-			System.out.println("Al siguiente dÌa la policÌa acude al orfanato para comunicarte una terrible noticia, tu hermano a fallecido tras caerse por un barranco.");
+			System.out.println("Al siguiente d√≠a la polic√≠a acude al orfanato para comunicarte una terrible noticia, tu hermano a fallecido tras caerse por un barranco.");
 			System.out.println("");
+
+		static void opcion1() {
+
+
+			System.out.println("Has decidido salvar a Ingrid, tu hermano no ha conseguido sobrevivir al parto.");
+			System.out.println("");
+			System.out.println("3 a√±os despu√©s‚Ä¶");	
+			System.out.println("");
+
+			System.out.println("Desde que eras peque√±a, el doctor Nathan Dawkins y tu madre vieron algo especial en ti, no eras como las dem√°s ni√±as. Comenzaron a ver sucesos extra√±os que ocurr√≠an a tu alrededor. Ten√≠as un amigo ‚Äúimaginario‚Äù llamado Aiden."
+					+ "	Ingrid muri√≥ debido a una depresi√≥n tras la muerte de tu hermano.");
+			System.out.println("A partir de ese entonces, Nathan se hizo de cargo de tu custodia.");
+			System.out.println("");
+			System.out.println("15 a√±os despu√©s‚Ä¶");
+			System.out.println("");
+
+
+			System.out.println("Con el paso del tiempo Nathan descubri√≥ que Aiden, es una entidad vinculada a ti. Es un ser inmaterial, con poderes telequin√©ticos que hace que tengas contacto con el mundo de los espir√≠tus.");
+			System.out.println("");
+			System.out.println("Al ser ‚Äúun peligro para la sociedad‚Äù, la CNP est√° informada sobre su existencia.");
+			System.out.println("La CNP han encontrando un portal multidimensional en unas instalaciones abandonas, en el que parec√≠a haber entidades malignas."
+					+ "Debido a ello, la CNP contact√≥ contigo para que pudieses ayudar a la exterminaci√≥n del portal.");
+			System.out.println("");
+			System.out.println("Decides:");
+			System.out.println("1.-Colaborar para que se cierre el portal.");
+			System.out.println("2.-No colaborar.");
+
+			int eleccion1 = scanner.nextInt();
+
+			if (eleccion1 == 1){
+
+				
+			} else {
+
+		
+			}
+
+
 		}
 }
