@@ -57,8 +57,10 @@ public class ClaseJuegoEntornos {
 			int eleccionBosque = scanner.nextInt();
 
 			if (eleccionBosque == 1) {
+				
 				opcion11();
 			} else {
+				
 				opcion12();
 			}
 		}
